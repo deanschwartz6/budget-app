@@ -66,6 +66,26 @@ const CardWrapper = styled.div`
     flex-direction: column;
     background-color: #66708c;
     gap: 22%;
+    @media (max-width: 1700px){
+        margin-top: 4%;
+    }
+    @media (max-width: 1200px){
+        margin-top: 6%;
+    }
+    @media (max-width: 768px){
+        margin-top: 6.5%;
+        padding: 5%;
+    }
+    @media (max-width: 500px){
+        margin-top: 10%;
+        padding: 6%;
+        width: 19em;
+    }
+    @media (max-width: 320px){
+        width: 15em;
+        gap: 15%;
+        margin-top: 25%;
+    }
 `;
 
 const TabsWrapper = styled.div`
@@ -105,6 +125,9 @@ const SignInForm = styled.form`
     display: flex;
     flex-direction: column;
     gap: 50%;
+    @media (max-width: 1700px){
+        gap: 2em;
+    }
 `;
 
 const FormInput = styled.input`
